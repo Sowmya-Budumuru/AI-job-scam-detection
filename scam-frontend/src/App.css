@@ -1,0 +1,187 @@
+.app {
+  min-height: 100vh;
+}
+
+.app.light {
+  background: #f4f6f9;
+  color: #111827;
+}
+
+.app.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background: #111827;
+  color: white;
+}
+
+.navBar .logoText {
+  font-weight: bold;
+}
+
+.navCenter {
+  display: flex;
+  gap: 10px;
+}
+
+.navBtn {
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: none;
+  background: #4b5563;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.navBtn.active {
+  background: #2563eb;
+}
+
+.darkToggle {
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: none;
+  background: #4b5563;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+}
+
+.title {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.inputBox {
+  width: 100%;
+  height: 120px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.smallInput {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+}
+
+.analyzeBtn,
+.reportBtn {
+  padding: 12px 18px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.analyzeBtn:hover {
+  background-color: #1e4fd3;
+}
+
+.reportBtn {
+  background-color: #dc2626;
+}
+
+.reportBtn:hover {
+  background-color: #b91c1c;
+}
+
+.resultBox {
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  color: #111827;
+}
+
+.app.dark .resultBox {
+  background: #1f2937;
+  border-color: #374151;
+  color: #e5e7eb;
+}
+
+.advice {
+  background: #fff3cd;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.app.dark .advice {
+  background: #92400e;
+}
+
+.complaint {
+  background: #eee;
+  padding: 12px;
+  border-radius: 6px;
+  white-space: pre-wrap;
+}
+
+.app.dark .complaint {
+  background: #4b5563;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #d1d5db;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.app.dark .table th,
+.app.dark .table td {
+  border-color: #374151;
+}
+
+.statsRow {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.statCard {
+  flex: 1;
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.app.dark .statCard {
+  background: #1f2937;
+  border-color: #374151;
+}
